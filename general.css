@@ -1,3 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+<dt> {
+	float: left;
+	clear: left;
+}
+dd {
+	float:left;
+	margin: 0;
+	padding: 0;
