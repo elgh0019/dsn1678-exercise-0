@@ -1,11 +1,20 @@
 @charset "UTF-8";
 /* CSS Document */
-
+dl {
+	border: 1px solid red;
+	/*
+	overflow hidden is clearifix
+	it reminds the <dl> to wrap around its floated children 
+	*/
+	overflow: hidden;
+}
 <dt> {
 	float: left;
 	clear: left;
+	width: 8em;
 }
 dd {
 	float:left;
 	margin: 0;
 	padding: 0;
+}
